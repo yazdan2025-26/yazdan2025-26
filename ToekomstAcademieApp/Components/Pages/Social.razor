@@ -1,0 +1,89 @@
+﻿@page "/social"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bottom Center Icons</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding-bottom: 60px; /* Prevent content hiding behind icons */
+            font-family: Arial, sans-serif;
+        }
+
+        .bottom-icons {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 30px;
+            background: #fff;
+            padding: 10px 25px;
+            border-radius: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+            z-index: 1000;
+        }
+
+            .bottom-icons a {
+                color: #555;
+                font-size: 28px;
+                text-decoration: none;
+                transition: color 0.3s ease, transform 0.3s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+            }
+
+                .bottom-icons a:hover {
+                  color: #007bff; /* Change color on hover */
+                    transform: scale(1.2); /* Slightly enlarge */
+                }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center; margin-top: 100px;">My Website Content</h1>
+    <p style="text-align:center;">Scroll around, icons stay fixed at bottom center!</p>
+
+    <div class="bottom-icons">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+<button>
+	x <a href="https://x.com/i/flow/login ">  </a>   <img src="x.png" alt="icon" style="width:20px; height:20px; vertical-align:middle;">
+
+</button>
+
+<button>
+	facebook <a href="https://nl-be.facebook.com/">  </a>   <img src="facebook-new.png" alt="icon" style="width:20px; height:20px; vertical-align:middle;">
+
+</button>
+
+<button>
+	linkden <a href="https://www.linkedin.com/company/login/?originalSubdomain=nl"> </a>   <img src="linkden.png" alt="icon" style="width:20px; height:20px; vertical-align:middle;">
+
+</button>
+
+
+@code {
+
+}
