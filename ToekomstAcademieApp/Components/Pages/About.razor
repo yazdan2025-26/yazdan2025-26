@@ -8,24 +8,156 @@
     }
 </style>
 <h1>
-    <b>yazdan Gardize</b>
+    <b>Yazdan Gardize</b>
 </h1>
-<h2>  Brief information about myself</h2>
-<p>My name is Yazdan Gardize, I am 20 years old and I am a student at the University of Applied Sciences in Amsterdam.
-    <br />I am currently studying Software Engineering.</p>
+<h2>Korte introductie over mijzelf</h2>
 
-<p style="color: darkmagenta;"> My hobbies include </p>
+<p>Mijn naam is Yazdan Gardize. Ik ben 25 jaar oud en momenteel studeer ik Software Engineering aan de Hogeschool van Amsterdam.</p>
+
+<p>Vanaf jonge leeftijd heb ik een sterke interesse ontwikkeld in technologie en programmeren. Deze passie heeft mij gemotiveerd om een carrière na te streven in de IT-sector, met name als full-stack developer. Mijn doel is om innovatieve en impactvolle projecten te realiseren die een positieve bijdrage leveren aan de maatschappij.</p>
+
+<p style="color: darkmagenta;">Mijn hobby’s en interesses omvatten onder andere:</p>
 
 <ul>
-    <li>Kickboxing</li>
-    <li>Gym & fitness</li>
-    <li>Playing games & watching movies</li>
-    <li>Playing football & basketball</li>
-    <li>Photography</li>
+    <li>Kickboksen – een sport waarin ik discipline en doorzettingsvermogen ontwikkel</li>
+    <li>Fitness en krachttraining – voor zowel lichamelijke als mentale gezondheid</li>
+    <li>Games spelen en films kijken – als ontspanning en om creatief geïnspireerd te blijven</li>
+    <li>Voetbal en basketbal – teamwerk en sportiviteit staan hierbij centraal</li>
+    <li>Fotografie – om momenten en perspectieven vast te leggen</li>
 </ul>
-<p>My goal is to become a <i> full-stack developer </i>and work on exciting projects that make a difference in people's lives.</p>
 
-<p>furthermore, </p>
-<p> I am quick-minded, sociable, and hardworking. I am in B1 level of Dutch language that I have studied by myself,
-    <b/>and I hope I would be able to pass my Inburgering exam in upcoming months.</p>
+<p>Naast mijn studie werk ik actief aan het verbeteren van mijn persoonlijke en professionele vaardigheden. Ik ben leergierig, sociaal, en beschik over een sterk probleemoplossend vermogen. </p>
+
+<p>Wat betreft mijn taalkennis: ik heb zelfstandig de Nederlandse taal tot niveau B1 geleerd. Mijn streven is om binnen de komende maanden met succes het Inburgeringsexamen af te leggen.</p>
+
+<p>Ik geloof in constante zelfontwikkeling en wil mij blijven inzetten om zowel persoonlijk als professioneel te groeien.</p>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map at Bottom</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Download mijn CV</h2>
+<p>Wil je meer over mijn achtergrond en ervaring weten? Download dan hieronder mijn curriculum vitae:</p>
+
+    <a href="file/YazdanGardizeCV.pdf" download class="cv-button">Download CV (PDF)</a>
+
+<style>
+    .cv-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: darkmagenta;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .cv-button:hover {
+        background-color: mediumvioletred;
+    }
+</style>
+    <h2>Contact</h2>
+    <p>Wil je contact met mij opnemen? Vul dan onderstaand formulier in.</p>
+
+    <form class="contact-form" onsubmit="alert('Bedankt voor je bericht! Dit is een demoformulier zonder backend.'); return false;">
+        <label>
+            Naam:<br />
+            <input type="text" name="name" required>
+        </label><br /><br />
+
+        <label>
+            Email:<br />
+            <input type="email" name="email" required>
+        </label><br /><br />
+
+        <label>
+            Bericht:<br />
+            <textarea name="message" rows="5" required></textarea>
+        </label><br /><br />
+
+        <button type="submit">Verstuur</button>
+    </form>
+
+    <style>
+        
+        .contact-form {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px; 
+            background: white; 
+            margin-top: 20px; 
+        }
+
+            
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%; 
+                padding: 5px;
+                border: 1px solid gray; 
+                border-radius: 3px; 
+                box-sizing: border-box;
+            }
+
+           
+            .contact-form button {
+                background-color: purple;
+                color: white; 
+                padding: 8px 15px; 
+                border: none; 
+                border-radius: 3px;
+                cursor: pointer; 
+            }
+                .contact-form button:hover {
+                    background-color: darkgreen;
+                }
+    </style>
+
+    <main>
+        <h1>Here you can find where I work </h1>
+     
+    </main>
+
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.661366938609!2d5.629469076684668!3d52.337217672013765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c633edc14398c9%3A0xc79ec62cff0dc9f3!2sCamas%20IT!5e0!3m2!1sen!2snl!4v1751372131836!5m2!1sen!2snl"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+</body>
+</html>
 

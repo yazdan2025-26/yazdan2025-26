@@ -2,3 +2,13 @@
 <h3>Home</h3>
 
 @code {}
+<!-- Simple Left-Aligned Contact Form -->
+<div style="width: 300px; margin-left: 20px; margin-top: 40px; font-family: Arial, sans-serif;">
+    <h3>Contacteer mij</h3>
+    <form action="https://formspree.io/f/your-id" method="POST">
+        <input type="text" name="name" placeholder="Naam" required style="width: 100%; padding: 8px; margin-bottom: 10px;" />
+        <input type="email" name="email" placeholder="E-mailadres" required style="width: 100%; padding: 8px; margin-bottom: 10px;" />
+        <textarea name="message" placeholder="Bericht" required style="width: 100%; padding: 8px; margin-bottom: 10px;" rows="3"></textarea>
+        <button type="submit" style="padding: 10px; background-color: darkmagenta; color: white; border: none; cursor: pointer;">Verzenden</button>
+    </form>
+</div>
